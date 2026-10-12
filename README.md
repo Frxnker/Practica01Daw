@@ -157,6 +157,10 @@ Pasos que realiza:
 
 Se usan `DEBIAN_FRONTEND=noninteractive` y `set -ex` para que la instalación no pida confirmaciones, muestre cada comando y se detenga si alguno falla.
 
+En la instancia se clona el repositorio y se crea el `.env` a partir de la plantilla:
+
+![Clonado del repositorio en la instancia](img/20-git-clone.png)
+
 Ejecución:
 
 ```bash
